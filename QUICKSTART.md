@@ -90,7 +90,7 @@ SVG, offline) and a print-to-PDF stylesheet.
 
 ## 📚 Where to go deeper
 
-- **README.md** — the full tool catalog and architecture rules
+- **DOCS.md** — the full tool catalog and architecture rules
 - **BUILD.md** — packaging: from source to self-signed apps, both platforms
 - **STATUS.md** — per-subsystem status + known issues
 - **app/README.md** — the packaged editions
