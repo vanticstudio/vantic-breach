@@ -1,0 +1,21 @@
+# FTP default/service credentials (user:pass).
+# Compiled from vendor documentation and public advisory references.
+anonymous:
+ftp:
+ftp:ftp
+admin:admin
+admin:password
+admin:
+root:root
+root:
+test:test
+guest:guest
+user:user
+backup:backup
+pi:raspberry
+vyatta:vyatta
+cisco:cisco
+ubnt:ubnt
+synology:admin
+qnap:admin:admin
+vantic:vantic

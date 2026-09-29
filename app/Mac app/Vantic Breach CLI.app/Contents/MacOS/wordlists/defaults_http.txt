@@ -1,0 +1,29 @@
+# HTTP Basic-auth default credentials (user:pass).
+# Compiled from vendor documentation and public advisory references.
+admin:admin
+admin:password
+admin:
+admin:1234
+admin:12345
+root:root
+root:
+user:user
+guest:guest
+test:test
+admin:admin123
+admin:passw0rd
+administrator:administrator
+manager:manager
+operator:operator
+monitor:monitor
+service:service
+api:api
+tomcat:tomcat
+tomcat:s3cret
+manager:s3cret
+admin:changeme
+root:changeme
+admin:default
+admin:password123
+admin:secret
+vantic:vantic

@@ -1,0 +1,11 @@
+{
+  "id": "missing-x-frame-options",
+  "info": {"name": "X-Frame-Options missing", "severity": "low",
+           "tags": ["headers", "misconfig"],
+           "remediation": "Add X-Frame-Options: DENY or SAMEORIGIN (or CSP frame-ancestors)"},
+  "request": {"method": "GET", "path": "/", "headers": {}, "body": null},
+  "match": {"condition": "and", "matchers": [
+    {"type": "status", "value": [200, 401, 403]},
+    {"type": "header", "name": "X-Frame-Options", "absent": true}
+  ]}
+}

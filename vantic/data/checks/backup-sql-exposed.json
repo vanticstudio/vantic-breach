@@ -1,0 +1,12 @@
+{
+  "id": "backup-sql-exposed",
+  "info": {"name": "Database backup in docroot (db.sql)", "severity": "high",
+           "tags": ["exposure", "backup"],
+           "remediation": "Remove backups from the web root"},
+  "request": {"method": "GET", "path": "/db.sql", "headers": {}, "body": null},
+  "match": {"condition": "and", "matchers": [
+    {"type": "status", "value": [200]},
+    {"type": "word", "value": ["CREATE TABLE", "INSERT INTO", "MySQL dump"],
+     "part": "body"}
+  ]}
+}

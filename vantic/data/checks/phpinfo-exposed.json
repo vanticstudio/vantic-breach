@@ -1,0 +1,11 @@
+{
+  "id": "phpinfo-exposed",
+  "info": {"name": "phpinfo() page exposed", "severity": "medium",
+           "tags": ["exposure", "php"],
+           "remediation": "Remove phpinfo pages from production"},
+  "request": {"method": "GET", "path": "/phpinfo.php", "headers": {}, "body": null},
+  "match": {"condition": "and", "matchers": [
+    {"type": "status", "value": [200]},
+    {"type": "word", "value": ["PHP Version", "phpinfo()"], "part": "body"}
+  ]}
+}

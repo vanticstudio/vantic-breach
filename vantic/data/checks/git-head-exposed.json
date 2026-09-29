@@ -1,0 +1,11 @@
+{
+  "id": "git-head-exposed",
+  "info": {"name": "Git repository metadata exposed (.git/HEAD)", "severity": "high",
+           "tags": ["exposure", "vcs"],
+           "remediation": "Block .git in the web server config / remove from docroot"},
+  "request": {"method": "GET", "path": "/.git/HEAD", "headers": {}, "body": null},
+  "match": {"condition": "and", "matchers": [
+    {"type": "status", "value": [200]},
+    {"type": "word", "value": ["ref:"], "part": "body", "case_insensitive": false}
+  ]}
+}

@@ -1,0 +1,12 @@
+{
+  "id": "env-file-exposed",
+  "info": {"name": ".env file exposed", "severity": "high",
+           "tags": ["exposure", "config"],
+           "remediation": "Move .env out of the docroot or block access"},
+  "request": {"method": "GET", "path": "/.env", "headers": {}, "body": null},
+  "match": {"condition": "and", "matchers": [
+    {"type": "status", "value": [200]},
+    {"type": "word", "value": ["=", "DB_", "APP_"], "part": "body",
+     "case_insensitive": false}
+  ]}
+}

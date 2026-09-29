@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict/>
+	<key>files2</key>
+	<dict>
+		<key>MacOS/vantic.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			/FJ3hOHvFkCYXvRUGW1qDqG4U2o=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"fc527784e1ef1640985ef454196d6a0ea1b8536a"</string>
+		</dict>
+		<key>MacOS/vantic/__init__.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			+EP8HdNvmQ+DGCZdsQckJOyfzpM=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"f843fc1dd36f990f8318265db1072424ec9fce93"</string>
+		</dict>
+		<key>MacOS/vantic/cli.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			TH0AVCC9MXlnVhgpIaj1jBxR/uo=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"4c7d005420bd31796756182921a8f58c1c51feea"</string>
+		</dict>
+		<key>MacOS/vantic/core/__init__.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			3JS04Q40dMgFeINWy5y7FO8Fxng=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"dc94b4e10e3474c805788356cb9cbb14ef05c678"</string>
+		</dict>
+		<key>MacOS/vantic/core/audit.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			7amcsHQ04U9TIE543yTto7fyMWY=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"eda99cb07434e14f53204e78df24eda3b7f23166"</string>
+		</dict>
+		<key>MacOS/vantic/core/findings.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			D+oVH/DJVXTTj99lvUJjVEm5YFg=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"0fea151ff0c95574d38fdf65bd42635449b96058"</string>
+		</dict>
+		<key>MacOS/vantic/core/guard.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			+B7FyPh5a/bqHnl80VaSFzOqIZ0=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"f81ec5c8f8796bf6ea1e797cd156921733aa219d"</string>
+		</dict>
+		<key>MacOS/vantic/core/net.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			52uRGjaHrfU1j62hfxAzYbWMVTA=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"e76b911a3687adf5358fada17f103361b58c5530"</string>
+		</dict>
+		<key>MacOS/vantic/core/registry.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			pk5Bw3VSmG9rI+lxbYQq9E9mv5w=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"a64e41c37552986f6b23e9716d842af44f66bf9c"</string>
+		</dict>
+		<key>MacOS/vantic/core/store.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			CTJXeEYArMHk5e5IpH5KhEq9yAo=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"093257784600acc1e4e5ee48a47e4a844abdc80a"</string>
+		</dict>
+		<key>MacOS/vantic/data/banner_cves.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			2YQQpEDd3a22MagShTx7KyN9ap8=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"d98410a440ddddadb631a812853c7b2b237d6a9f"</string>
+		</dict>
+		<key>MacOS/vantic/data/checks/actuator-exposed.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			e3yequx6VRzJIYL/JhKfb5XJ+Ks=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"7b7c9eaaec7a551cc92182ff26129f6f95c9f8ab"</string>
+		</dict>
+		<key>MacOS/vantic/data/checks/backup-sql-exposed.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			SOaw/GmD0Z8Ub1xwvdt/Hk8BX0g=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"48e6b0fc6983d19f146f5c70bddb7f1e4f015f48"</string>
+		</dict>
+		<key>MacOS/vantic/data/checks/directory-listing.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			hPlnnawYkBRG9w8OeiXwWMZlvF8=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"84f9679dac18901446f70f0e7a25f058c665bc5f"</string>
+		</dict>
+		<key>MacOS/vantic/data/checks/env-file-exposed.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			oGQqlVMl62KEyOJMr8tBkKR5W0Q=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"a0642a955325eb6284c8e24cafcb4190a4795b44"</string>
+		</dict>
+		<key>MacOS/vantic/data/checks/git-head-exposed.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			xfLGVQv5jA14I15r7mhy4ipwwa0=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"c5f2c6550bf98c0d78235e6bee6872e22a70c1ad"</string>
+		</dict>
+		<key>MacOS/vantic/data/checks/missing-hsts.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			rI8NJFxYJaTJy4VerqTeCPI1JPk=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"ac8f0d245c5825a4c9cb855eaea4de08f23524f9"</string>
+		</dict>
+		<key>MacOS/vantic/data/checks/missing-x-frame-options.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			oFHQ7XCnoHqG+MBWiOnbWWaGAuI=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"a051d0ed70a7a07a86f8c05688e9db59668602e2"</string>
+		</dict>
+		<key>MacOS/vantic/data/checks/missing-xcto.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			ctTeCpATcV5yPslFdYhfY3ElUSM=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"72d4de0a9013715e723ec94575885f6371255123"</string>
+		</dict>
+		<key>MacOS/vantic/data/checks/phpinfo-exposed.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			v2YkFNOgB4IbsMTnlPgymsl7Y94=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"bf662414d3a007821bb0c4e794f8329ac97b63de"</string>
+		</dict>
+		<key>MacOS/vantic/data/checks/server-status-exposed.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			HgagNWSWVh5gcDtjRJLV5bkAwVM=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"1e06a0356496561e60703b634492d5e5b900c153"</string>
+		</dict>
+		<key>MacOS/vantic/data/checks/swagger-json-exposed.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			rMdR2GwWtPom6Pa9qovDDE2m0Jo=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"acc751d86c16b4fa26e8f6bdaa8bc30c4da6d09a"</string>
+		</dict>
+		<key>MacOS/vantic/data/checks/wp-config-backup.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			eXhDiFsO+MPMzjc5yXBVDH+OXt4=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"797843885b0ef8c3ccce3739c970550c7f8e5ede"</string>
+		</dict>
+		<key>MacOS/vantic/data/kernel_exploits.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			q0GAK1B8qY6Uz+d3Tx6LFdDi3XQ=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"ab41802b507ca98e94cfe7774f1e8b15d0e2dd74"</string>
+		</dict>
+		<key>MacOS/vantic/data/router_signatures.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			bTU45xO9m1MvNW37nKImETtbOCY=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"6d3538e713bd9b532f356dfb9ca226113b5b3826"</string>
+		</dict>
+		<key>MacOS/vantic/data/service_probes.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			2Ou5K2JosFkkLiUMak9hMUgNgVM=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"d8ebb92b6268b059242e250c6a4f6131480d8153"</string>
+		</dict>
+		<key>MacOS/vantic/gui.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			jlJBgfCaOmVThylp+oNJecadXZg=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"8e524181f09a3a6553872969fa834979c69d5d98"</string>
+		</dict>
+		<key>MacOS/vantic/tools/__init__.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			BLWkd6bKODVRJXRtjrOw6m44zMg=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"04b5a477a6ca38355125746d8eb3b0ea6e38ccc8"</string>
+		</dict>
+		<key>MacOS/vantic/tools/arpsweep.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			ItVxOfrLvn4h9K7PdoPxVBmXhao=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"22d57139facbbe7e21f4aecf7683f154199785aa"</string>
+		</dict>
+		<key>MacOS/vantic/tools/asn.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			qXFvzW93Dx1yvELCqtneAmSefpU=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"a9716fcd6f770f1d72bc42c2aad9de02649e7e95"</string>
+		</dict>
+		<key>MacOS/vantic/tools/checks.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			pBms9IYGEGdhp0rfLQJp84rJYW8=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"a419acf48606106761a74adf2d0269f38ac9616f"</string>
+		</dict>
+		<key>MacOS/vantic/tools/cors.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			OSKHngzYqYRm558wZbxkmyXtNsA=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"3922879e0cd8a98466e79f3065bc649b25ed36c0"</string>
+		</dict>
+		<key>MacOS/vantic/tools/crawler.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			W9ZcwkSXiLe0Uu07J9S3519plNA=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"5bd65cc2449788b7b452ed3b27d4b7e75f6994d0"</string>
+		</dict>
+		<key>MacOS/vantic/tools/creds.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			oeZNJl2jViyxX5sBqI7PtnOW1YA=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"a1e64d265da3562cb15f9b01a88ecfb67396d580"</string>
+		</dict>
+		<key>MacOS/vantic/tools/defaults.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			/V/foudkgkxMLs41Yq8BgK1zE3k=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"fd5fdfa2e764824c4c2ece3562af0180ad731379"</string>
+		</dict>
+		<key>MacOS/vantic/tools/dhcp.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			OYYn6JYPAhEX/gkirlLjHyTXITA=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"398627e8960f021117fe0922ae52e31f24d72130"</string>
+		</dict>
+		<key>MacOS/vantic/tools/diff.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			X2Bpz2tplvr3UzS/nphbHIynhfQ=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"5f6069cf6b6996faf75334bf9e985b1c8ca785f4"</string>
+		</dict>
+		<key>MacOS/vantic/tools/dir.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			vVb7+Jy+BK5CacVjLZgtWwYR8YI=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"bd56fbf89cbe04ae4269c5632d982d5b0611f182"</string>
+		</dict>
+		<key>MacOS/vantic/tools/dns.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			3ubtTiKM5WRlEea3NcSK5qbnLyg=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"dee6ed4e228ce5646511e6b735c48ae6a6e72f28"</string>
+		</dict>
+		<key>MacOS/vantic/tools/dnssweep.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			uuqlkqd1dkOuI9ZV1yiPcSKl1zg=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"baeaa592a7757643ae23d655d7288f7122a5d738"</string>
+		</dict>
+		<key>MacOS/vantic/tools/enum.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			/37vcO9y4Mp2XmPjuIh/emX6Bl8=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"ff7eef70ef72e0ca765e63e3b8887f7a65fa065f"</string>
+		</dict>
+		<key>MacOS/vantic/tools/gateway.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			dNJpXoh5jg6e/MwSZl+VupVmAm8=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"74d2695e88798e0e9efccc12665f95ba9566026f"</string>
+		</dict>
+		<key>MacOS/vantic/tools/graphql.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			3x62eJT0hPyZ5qBx1DWaYTLtxZo=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"df1eb67894f484fc99e6a071d4359a6132edc59a"</string>
+		</dict>
+		<key>MacOS/vantic/tools/http.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			zB1dfl3CzYah5Sqm3Jqb08hzUO8=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"cc1d5d7e5dc2cd86a1e52aa6dc9a9bd3c87350ef"</string>
+		</dict>
+		<key>MacOS/vantic/tools/jobs.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			SQcDcGKT7nQZOrhn9Ye/Vqq7MgI=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"490703706293ee74193ab867f587bf56aabb3202"</string>
+		</dict>
+		<key>MacOS/vantic/tools/jwt.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			mz3yceyWp8x5u0Xdt4YcD132PZQ=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"9b3df271ec96a7cc79bb45ddb7861c0f5df63d94"</string>
+		</dict>
+		<key>MacOS/vantic/tools/kerbprobe.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			StOOAbcM4QH9jLghHyg5Fwt/bdI=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"4ad38e01b70ce101fd8cb8211f2839170b7f6dd2"</string>
+		</dict>
+		<key>MacOS/vantic/tools/ldap.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			8eCbZkpG1YhP+TjT7Zik1e9frLg=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"f1e09b664a46d5884ff938d3ed98a4d5ef5facb8"</string>
+		</dict>
+		<key>MacOS/vantic/tools/mailauth.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			N7PQc1xez3wqLnsa6VPUTLNxEtw=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"37b3d0735c5ecf7c2a2e7b1ae953d44cb37112dc"</string>
+		</dict>
+		<key>MacOS/vantic/tools/mdnsscan.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			LL/CYKmlBMKdXCd/amxpGBEkq5E=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"2cbfc260a9a504c29d5c277f6a6c69181124ab91"</string>
+		</dict>
+		<key>MacOS/vantic/tools/memcache.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			KwM050PtT84ml4p1oCbQbnEiMJA=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"2b0334e743ed4fce26978a75a026d06e71223090"</string>
+		</dict>
+		<key>MacOS/vantic/tools/mqtt.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			pmyum85zIV99SZt3d+6gfWYbjdw=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"a66cae9bce73215f7d499b7777eea07d661b8ddc"</string>
+		</dict>
+		<key>MacOS/vantic/tools/namesniff.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			Yhx7Veapw7Q+Wb3gfLi+n2Rs8Wo=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"621c7b55e6a9c3b43e59bde07cb8be9f646cf16a"</string>
+		</dict>
+		<key>MacOS/vantic/tools/nbtquery.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			cIfrnjZyJ4BS77mYGtHhR+faGGQ=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"7087eb9e3672278052efb9981ad1e147e7da1864"</string>
+		</dict>
+		<key>MacOS/vantic/tools/netmap.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			yKJXiskVejoDwto0X1aiHp5VH7Q=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"c8a2578ac9157a3a03c2da345f56a21e9e551fb4"</string>
+		</dict>
+		<key>MacOS/vantic/tools/nfs.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			HMTNXm8IhpGY9g+ZozLOvzsYL6Q=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"1cc4cd5e6f08869198f60f99a332cebf3b182fa4"</string>
+		</dict>
+		<key>MacOS/vantic/tools/nmap.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			PP86pcwVzTrXTpk5gcN7cA4Ozp4=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"3cff3aa5cc15cd3ad74e993981c37b700e0ece9e"</string>
+		</dict>
+		<key>MacOS/vantic/tools/ntlm.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			oLlJBRTrOppl/MaQMGR8iRj1tyQ=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"a0b9490514eb3a9a65fcc69030647c8918f5b724"</string>
+		</dict>
+		<key>MacOS/vantic/tools/osfp.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			ibwXp5ZyPuo/2tzUlJWjJI/2XUg=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"89bc17a796723eea3fdadcd49495a3248ff65d48"</string>
+		</dict>
+		<key>MacOS/vantic/tools/osint.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			3/6XlA9q0vmeOTwIUzHAGMyAy00=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"dffe97940f6ad2f99e393c085331c018cc80cb4d"</string>
+		</dict>
+		<key>MacOS/vantic/tools/params.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			ByDjrbeS5KylYnOwfs0wPzLO3I0=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"0720e3adb792e4aca56273b07ecd303f32cedc8d"</string>
+		</dict>
+		<key>MacOS/vantic/tools/policy.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			4FkZb+I0wFbOfMhyK6Vb42SZCgE=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"e059196fe234c056ce7cc8722ba55be364990a01"</string>
+		</dict>
+		<key>MacOS/vantic/tools/postex.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			+Vu1Omu4mnY3vfZdJvImm3xcmi4=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"f95bb53a6bb89a7637bdf65d26f2269b7c5c9a2e"</string>
+		</dict>
+		<key>MacOS/vantic/tools/ra_sweep.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			yvxrn6N0EI7mIqY6Os2PbrtrLr8=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"cafc6b9fa374108ee622a63a3acd8f6ebb6b2ebf"</string>
+		</dict>
+		<key>MacOS/vantic/tools/rdp.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			otcLKWydNkcNfDB3dBRfs3M/Izk=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"a2d70b296c9d36470d7c307774145fb3733f2339"</string>
+		</dict>
+		<key>MacOS/vantic/tools/reconapi.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			P+YPQ3SQc6O4ZV1VpR3NfoxUgU8=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"3fe60f43749073a3b8655d55a51dcd7e8c54814f"</string>
+		</dict>
+		<key>MacOS/vantic/tools/redis.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			+9kNsDbOnfFe/vG8ZOfudxFspMw=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"fbd90db036ce9df15efef1bc64e7ee77116ca4cc"</string>
+		</dict>
+		<key>MacOS/vantic/tools/report.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			O8VmH9jwMiKCPQMqbmKOBSergbc=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"3bc5661fd8f03222823d032a6e628e0527ab81b7"</string>
+		</dict>
+		<key>MacOS/vantic/tools/scan.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			0UGCbe5BDc8hnvsdk1lyMt6euAI=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"d141826dee410dcf219efb1d93597232de9eb802"</string>
+		</dict>
+		<key>MacOS/vantic/tools/shell.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			/HyMV3i3ggXt0tfIKTAOaFZyemY=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"fc7c8c5778b78205edd2d7c829300e6856727a66"</string>
+		</dict>
+		<key>MacOS/vantic/tools/smb.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			KUHqglH5pKjsxAtxKF3QuZ6h4gA=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"2941ea8251f9a4a8ecc40b71285dd0b99ea1e200"</string>
+		</dict>
+		<key>MacOS/vantic/tools/smbenum.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			kABaimj/BxABNu0Bt+kqEgPoxaQ=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"90005a8a68ff07100136ed01b7e92a1203e8c5a4"</string>
+		</dict>
+		<key>MacOS/vantic/tools/smtp.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			8jFz38GgFkqDK1EIPmdaUJUeoq8=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"f23173dfc1a0164a832b51083e675a50951ea2af"</string>
+		</dict>
+		<key>MacOS/vantic/tools/sniff.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			HUDg2IUmETzIDD9Iux8h2Bpm1Bc=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"1d40e0d88526113cc80c3f48bb1f21d81a66d417"</string>
+		</dict>
+		<key>MacOS/vantic/tools/snmp.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			1HblI0MHrgX3keB3zZqEDv/0h2M=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"d476e5234307ae05f791e077cd9a840efff48763"</string>
+		</dict>
+		<key>MacOS/vantic/tools/subdomain.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			Fm5K+dXXtWkZPMIxeA8pJFtehBI=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"166e4af9d5d7b569193cc231780f29245b5e8412"</string>
+		</dict>
+		<key>MacOS/vantic/tools/synscan.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			vcXw4gGr+PjI0GId1utY9cfzqdQ=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"bdc5f0e201abf8f8c8d0621dd6eb58f5c7f3a9d4"</string>
+		</dict>
+		<key>MacOS/vantic/tools/takeover.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			Ed9lt+naNewFOYd5k/5MoioXtcQ=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"11df65b7e9da35ec0539877993fe4ca22a17b5c4"</string>
+		</dict>
+		<key>MacOS/vantic/tools/upnp.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			yuNrWWjjuqou+yNbbqqGxwFXqnc=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"cae36b5968e3baaa2efb235b6eaa86c70157aa77"</string>
+		</dict>
+		<key>MacOS/vantic/tools/vnc.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			8tXOXjXhncuC1J/bRMixbAZlCAM=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"f2d5ce5e35e19dcb82d49fdb44c8b16c06650803"</string>
+		</dict>
+		<key>MacOS/vantic/tools/vuln.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			r17iUJ338YVwh4KjFGpZEoRORWA=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"af5ee2509df7f185708782a3146a5912844e4560"</string>
+		</dict>
+		<key>MacOS/vantic/tools/web.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			1762Hw7S/lTYYSsYDFuewyRHj94=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"d7beb61f0ed2fe54d8612b180c5b9ec324478fde"</string>
+		</dict>
+		<key>MacOS/vantic/tools/webauth.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			eTx30FAV24HJwMWegGAQBYsXAEg=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"793c77d05015db81c9c0c59e806010058b170048"</string>
+		</dict>
+		<key>MacOS/vantic/tools/whois.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			OkwJHjlIccFu93gNdvFGMlG5jVw=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"3a4c091e394871c16ef7780d76f1463251b98d5c"</string>
+		</dict>
+		<key>MacOS/vantic/tools/winrm.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			8yFfOI5afzmA3Spujp9BX3c3QVo=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"f3215f388e5a7f3980dd2a6e8e9f415f7737415a"</string>
+		</dict>
+		<key>MacOS/vantic/utils/__init__.py</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			LJE8Ed0BA0fvWtyvAvM2htijyPg=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"2c913c11dd010347ef5adcaf02f33686d8a3c8f8"</string>
+		</dict>
+		<key>MacOS/wordlists/defaults_ftp.txt</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			CE1n2jIFdHYXM0VknGZQkJyfFxg=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"084d67da32057476173345649c6650909c9f1718"</string>
+		</dict>
+		<key>MacOS/wordlists/defaults_http.txt</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			hRm7ZQPZS+XKy8WtTLOHUSCijYY=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"8519bb6503d94be5cacbc5ad4cb3875120a28d86"</string>
+		</dict>
+		<key>MacOS/wordlists/defaults_redis.txt</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			UlYXdbI/8Xcig6cTMRI7F+X4e3U=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"52561775b23ff1772283a71331123b17e5f87b75"</string>
+		</dict>
+		<key>MacOS/wordlists/defaults_snmp.txt</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			cGiOxAb2jNMYg7ztGnAsVIpVfTA=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"70688ec406f68cd31883bced1a702c548a557d30"</string>
+		</dict>
+		<key>MacOS/wordlists/defaults_ssh.txt</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			DbZd7vCVB1b/rNv/uRaQADqJS+8=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"0db65deef0950756ffacdbffb91690003a894bef"</string>
+		</dict>
+		<key>MacOS/wordlists/directories.txt</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			V+kYxFnj47xxd6btdV8rjkH935M=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"57e918c459e3e3bc7177a6ed755f2b8e41fddf93"</string>
+		</dict>
+		<key>MacOS/wordlists/passwords.txt</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			LYbbIEPS8xfUfURnnmS14UWzwSc=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"2d86db2043d2f317d47d44679e64b5e145b3c127"</string>
+		</dict>
+		<key>MacOS/wordlists/router_defaults.txt</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			D7z6uJ2ipYHH4UVRvejEIbmdJT0=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"0fbcfab89da2a581c7e14551bde8c421b99d253d"</string>
+		</dict>
+		<key>MacOS/wordlists/subdomains.txt</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			yrlYPQOJZrXnOgJsXiXKdg0OAaE=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"cab9583d038966b5e73a026c5e25ca760d0e01a1"</string>
+		</dict>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

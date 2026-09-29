@@ -1,0 +1,12 @@
+# Redis default requirepass values (password-only lines).
+# Compiled from vendor documentation and public advisory references.
+redis
+changeme
+password
+admin
+123456
+foobared
+redispass
+secret
+root
+vantic

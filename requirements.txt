@@ -1,0 +1,16 @@
+# Vantic Breach 3.0 - Dependencies
+# All optional: the toolkit is stdlib-first and degrades gracefully.
+
+# Core optional (strongly recommended)
+paramiko>=3.0.0    # creds ssh, postex, defaults ssh
+dnspython>=2.3.0  # dns, subdomain, asn, takeover, kerbprobe
+
+# Network layer (root required for these tools)
+scapy>=2.5.0       # synscan, arpsweep, dhcp, osfp
+
+# Deep enumeration (each needed by exactly one tool)
+impacket>=0.11.0  # smbenum (SAMR domain enumeration)
+ldap3>=2.9.0      # policy (authenticated LDAP reads)
+pysmb>=1.2.9      # smb --shares (anonymous share listing)
+
+# Install all: pip3 install -r requirements.txt

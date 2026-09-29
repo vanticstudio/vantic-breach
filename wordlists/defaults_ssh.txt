@@ -1,0 +1,35 @@
+# SSH default/service credentials (user:pass).
+# Compiled from vendor documentation and public advisory references.
+root:root
+root:
+root:toor
+admin:admin
+admin:password
+pi:raspberry
+ubuntu:ubuntu
+vagrant:vagrant
+ubnt:ubnt
+cisco:cisco
+admin:cisco
+oracle:oracle
+postgres:postgres
+mysql:mysql
+test:test
+guest:guest
+service:service
+vyatta:vyatta
+cumulus:CumulusLinux!
+cloudera:cloudera
+ambari:admin
+hadoop:hadoop
+kali:kali
+debian:debian
+support:support
+ftp:ftp
+git:git
+jenkins:jenkins
+grafana:admin
+elastic:changeme
+kibana:kibana
+logstash:logstash
+vantic:vantic

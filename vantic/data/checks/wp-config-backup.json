@@ -1,0 +1,11 @@
+{
+  "id": "wp-config-backup",
+  "info": {"name": "WordPress config backup exposed", "severity": "high",
+           "tags": ["exposure", "cms", "wordpress"],
+           "remediation": "Delete editor backup files (wp-config.php.bak etc.)"},
+  "request": {"method": "GET", "path": "/wp-config.php.bak", "headers": {}, "body": null},
+  "match": {"condition": "and", "matchers": [
+    {"type": "status", "value": [200]},
+    {"type": "word", "value": ["DB_PASSWORD", "DB_NAME"], "part": "body"}
+  ]}
+}

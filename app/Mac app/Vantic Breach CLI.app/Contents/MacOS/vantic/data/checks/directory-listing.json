@@ -1,0 +1,11 @@
+{
+  "id": "directory-listing",
+  "info": {"name": "Directory listing enabled", "severity": "low",
+           "tags": ["misconfig"],
+           "remediation": "Disable autoindex / directory browsing"},
+  "request": {"method": "GET", "path": "/", "headers": {}, "body": null},
+  "match": {"condition": "and", "matchers": [
+    {"type": "status", "value": [200]},
+    {"type": "word", "value": ["Index of /"], "part": "body"}
+  ]}
+}

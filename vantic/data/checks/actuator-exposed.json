@@ -1,0 +1,11 @@
+{
+  "id": "actuator-exposed",
+  "info": {"name": "Spring Boot actuator endpoints exposed", "severity": "high",
+           "tags": ["exposure", "java"],
+           "remediation": "Restrict actuator endpoints (management endpoints web exposure)"},
+  "request": {"method": "GET", "path": "/actuator/health", "headers": {}, "body": null},
+  "match": {"condition": "and", "matchers": [
+    {"type": "status", "value": [200]},
+    {"type": "word", "value": ["\"status\"", "UP"], "part": "body"}
+  ]}
+}

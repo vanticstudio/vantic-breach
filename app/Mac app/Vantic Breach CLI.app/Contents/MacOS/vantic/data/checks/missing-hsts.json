@@ -1,0 +1,11 @@
+{
+  "id": "missing-hsts",
+  "info": {"name": "Strict-Transport-Security missing on HTTPS", "severity": "low",
+           "tags": ["headers", "tls"], "https_only": true,
+           "remediation": "Add Strict-Transport-Security: max-age=31536000"},
+  "request": {"method": "GET", "path": "/", "headers": {}, "body": null},
+  "match": {"condition": "and", "matchers": [
+    {"type": "status", "value": [200, 301, 302]},
+    {"type": "header", "name": "Strict-Transport-Security", "absent": true}
+  ]}
+}

@@ -1,0 +1,36 @@
+[
+  {"signatures": ["OpenSSH_7."], "cves": [
+    {"id": "CVE-2023-38408", "title": "OpenSSH ssh-agent RCE (7.0-9.3p1)"},
+    {"id": "CVE-2024-6387", "title": "OpenSSH regreSSHion RCE (8.5-9.7; race)"}]},
+  {"signatures": ["OpenSSH_6.", "OpenSSH_5.", "OpenSSH_4."], "cves": [
+    {"id": "CVE-2016-0777", "title": "OpenSSH roaming client info leak"},
+    {"id": "CVE-2024-6387", "title": "OpenSSH regreSSHion (older 4.2 code also affected)"}]},
+  {"signatures": ["vsftpd 2.3.4"], "cves": [
+    {"id": "CVE-2011-2523", "title": "vsftpd 2.3.4 backdoor (16906/x)"}]},
+  {"signatures": ["ProFTPD 1.3.3", "ProFTPD 1.3.2"], "cves": [
+    {"id": "CVE-2010-3867", "title": "ProFTPD TELNET IAC RCE"}]},
+  {"signatures": ["ProFTPD 1.3.5"], "cves": [
+    {"id": "CVE-2015-3306", "title": "ProFTPD mod_copy RCE"}]},
+  {"signatures": ["Redis 2.8.", "Redis 3.0.", "Redis 3.2."], "cves": [
+    {"id": "CVE-2022-0543", "title": "Redis Lua sandbox escape (Debian packaging)"}]},
+  {"signatures": ["MySQL 5."], "cves": [
+    {"id": "CVE-2012-2122", "title": "MariaDB/MySQL auth bypass (specific builds)"}]},
+  {"signatures": ["Apache/2.2."], "cves": [
+    {"id": "CVE-2011-3192", "title": "Apache byte-range DoS"},
+    {"id": "CVE-2017-7679", "title": "ap_find_token buffer overread"}]},
+  {"signatures": ["Apache/2.4.49", "Apache/2.4.50"], "cves": [
+    {"id": "CVE-2021-41773", "title": "Apache path traversal + RCE (2.4.49/50)"}]},
+  {"signatures": ["nginx/1.3.", "nginx/1.2.", "nginx/1.1.", "nginx/1.0."], "cves": [
+    {"id": "CVE-2013-4547", "title": "nginx URI parsing flaw"}]},
+  {"signatures": ["RomPager/4.0"], "cves": [
+    {"id": "CVE-2014-9222", "title": "Misfortune Cookie (RomPager < 4.07)"}]},
+  {"signatures": ["RomPager/4.0", "RomPager/4.0"], "cves": [
+    {"id": "CVE-2014-9222", "title": "Misfortune Cookie"}]},
+  {"signatures": ["Microsoft-IIS/6."], "cves": [
+    {"id": "CVE-2017-7269", "title": "IIS 6.0 WebDAV buffer overflow"}]},
+  {"signatures": ["Apache-Coyote/1.1"], "cves": [
+    {"id": "CVE-2017-5638", "title": "Struts2 multipart RCE (check app layer)"}]},
+  {"signatures": ["Apache httpd 2.4.54"], "cves": []},
+  {"signatures": ["lighttpd/1.4."], "cves": [
+    {"id": "CVE-2018-19052", "title": "lighttpd mod_auth timing (versions vary)"}]}
+]

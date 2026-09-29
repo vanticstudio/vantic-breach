@@ -1,0 +1,11 @@
+{
+  "id": "swagger-json-exposed",
+  "info": {"name": "Swagger/OpenAPI spec exposed", "severity": "low",
+           "tags": ["exposure", "api"],
+           "remediation": "Gate API docs behind auth in production"},
+  "request": {"method": "GET", "path": "/swagger.json", "headers": {}, "body": null},
+  "match": {"condition": "and", "matchers": [
+    {"type": "status", "value": [200]},
+    {"type": "word", "value": ["\"swagger\"", "\"openapi\""], "part": "body"}
+  ]}
+}

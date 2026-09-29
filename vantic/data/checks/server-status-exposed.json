@@ -1,0 +1,12 @@
+{
+  "id": "server-status-exposed",
+  "info": {"name": "Apache server-status exposed", "severity": "medium",
+           "tags": ["exposure", "apache"],
+           "remediation": "Restrict mod_status to localhost"},
+  "request": {"method": "GET", "path": "/server-status", "headers": {}, "body": null},
+  "match": {"condition": "and", "matchers": [
+    {"type": "status", "value": [200]},
+    {"type": "word", "value": ["Apache Server Status", "Server Version:"],
+     "part": "body"}
+  ]}
+}

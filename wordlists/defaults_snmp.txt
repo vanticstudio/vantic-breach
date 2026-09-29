@@ -1,0 +1,30 @@
+# SNMP default community strings (the "password" is the line itself).
+# Compiled from vendor documentation and public advisory references.
+public
+private
+community
+snmp
+monitor
+cisco
+read
+write
+secret
+vantic
+default
+cable-docsis
+ILMI
+cisco-docsis
+nonpublic
+access
+ Colo
+internal
+router
+switch
+openview
+hp
+ibm
+dell
+xyplex
+tttcp
+regional
+CISCO

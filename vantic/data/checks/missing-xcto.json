@@ -1,0 +1,11 @@
+{
+  "id": "missing-xcto",
+  "info": {"name": "X-Content-Type-Options missing", "severity": "low",
+           "tags": ["headers", "misconfig"],
+           "remediation": "Add X-Content-Type-Options: nosniff"},
+  "request": {"method": "GET", "path": "/", "headers": {}, "body": null},
+  "match": {"condition": "and", "matchers": [
+    {"type": "status", "value": [200]},
+    {"type": "header", "name": "X-Content-Type-Options", "absent": true}
+  ]}
+}
